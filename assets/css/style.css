@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,greek-ext,cyrillic-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700&subset=latin,greek-ext,cyrillic-ext);
+
 /*!
  * My Portfolio v1.0.0
  * Homepage: http://scripteden.com
@@ -231,7 +232,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .pfblock {
-	padding: 20px 0 20px;
+	padding: 20px 0 10px;
 }
 
 .pfblock-gray {
@@ -281,18 +282,19 @@ textarea.form-control {
 .pfblock-subtitle {
 	
 font-family: 'Open Sans', sans-serif;
-	font-style: normal;
-	font-size: 18px;
+	/*font-style: normal;*/
+	
+	font-size: 24px;
 	color: #E12E28;
 }
-
+/*
 .pfblock-line {
 	background: rgba(135, 135, 135, 0.5);
 	width: 200px;
 	height: 1px;
 	margin: 30px auto;
 }
-
+*/
 .pfblock-icon {
 	font-size: 32px;
 }
@@ -960,6 +962,8 @@ figure.effect-bubba p {
 	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 }
+
+
 
 figure.effect-bubba:hover figcaption::before,
 figure.effect-bubba:hover figcaption::after {
